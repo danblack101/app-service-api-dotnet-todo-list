@@ -21,10 +21,7 @@ namespace ToDoListDataAPI.Controllers
             return list;
         }
 
-        public Note GetFirst()
-        {
-            return new Note { content = "just one!"};
-        }
+
     }
 
     public class Note
