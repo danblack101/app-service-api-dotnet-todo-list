@@ -14,10 +14,16 @@ namespace ToDoListDataAPI.Controllers
         {
             var list = new List<Note>()
             {
-                new Note {content = "Hello World" }
+                new Note {content = "Hello World" },
+                 new Note {content = "again" }
             };
 
             return list;
+        }
+
+        public Note GetFirst()
+        {
+            return new Note { content = "just one!"};
         }
     }
 
